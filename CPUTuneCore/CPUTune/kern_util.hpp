@@ -121,6 +121,11 @@ enum KernelVersion {
     HighSierra    = 17,
     Mojave        = 18,
     Catalina      = 19,
+    BigSur        = 20,
+    Monterey      = 21,
+    Ventura       = 22,
+    Sonoma        = 23,
+    Sequoia       = 24,
     Unsupported
 };
 
