@@ -6,12 +6,14 @@
 //
 
 #include <i386/proc_reg.h>
-#include <CPUTune.hpp>
-#include <CPUInfo.hpp>
-#include <SIPTune.hpp>
-#include <kern_util.hpp>
 #include <IOKit/IOTimerEventSource.h>
 #include <sys/errno.h>
+
+# Local headers
+#include "CPUTune.hpp"
+#include "CPUInfo.hpp"
+#include "SIPTune.hpp"
+#include "kern_util.hpp"
 
 OSDefineMetaClassAndStructors(CPUTune, IOService)
 

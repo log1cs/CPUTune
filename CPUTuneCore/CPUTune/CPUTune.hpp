@@ -9,9 +9,9 @@
 #define CPUTune_hpp
 
 #include <IOKit/IOService.h>
-#include <CPUInfo.hpp>
-#include <SIPTune.hpp>
-#include <NVRAMUtils.hpp>
+#include "CPUInfo.hpp"
+#include "SIPTune.hpp"
+#include "NVRAMUtils.hpp"
 
 class CPUTune : public IOService
 {
