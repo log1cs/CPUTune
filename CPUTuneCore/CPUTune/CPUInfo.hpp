@@ -116,13 +116,17 @@ public:
         CPU_MODEL_KABYLAKE_ULT   =  0x8E,
         CPU_MODEL_KABYLAKE_ULX   =  0x8E,
         CPU_MODEL_KABYLAKE_DT    =  0x9E,
-        CPU_MODEL_COMETLAKE_S    =  0x9F, /* desktop Comet Lake */
         CPU_MODEL_CANNONLAKE     =  0x66,
         CPU_MODEL_ICELAKE_Y      =  0x7D,
         CPU_MODEL_ICELAKE_U      =  0x7E,
+        CPU_MODEL_COMETLAKE_S    =  0x9F, /* Desktop Comet Lake */
         CPU_MODEL_COMETLAKE_Y    =  0xA5, /* aka 10th generation Amber Lake Y */
         CPU_MODEL_COMETLAKE_U    =  0xA6,
+        CPU_MODEL_ROCKETLAKE_S   =  0xA7, /* Desktop Rocket Lake */
+        CPU_MODEL_ALDERLAKE_S    =  0x97, /* Desktop Alder Lake */
+	CPU_MODEL_RAPTORLAKE_S	 =  0xBF, /* Desktop Raptor Lake */
     };
 };
 
 #endif /* CPUInfo_hpp */
+
