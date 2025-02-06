@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 54;
+	objectVersion = 77;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -225,7 +225,6 @@
 				};
 			};
 			buildConfigurationList = E8E1902D24B275D50067C47C /* Build configuration list for PBXProject "CPUTuneApp" */;
-			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -233,6 +232,7 @@
 				Base,
 			);
 			mainGroup = E8E1902924B275D50067C47C;
+			preferredProjectObjectVersion = 77;
 			productRefGroup = E8E1903324B275D50067C47C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
