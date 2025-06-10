@@ -27,7 +27,7 @@ IOService *CPUTune::probe(IOService *provider, SInt32 *score) {
 bool CPUTune::init(OSDictionary *dict)
 {
     LOG("CPUTune(%s) starting on macOS Darwin %d.%d.", kmod_info.version, getKernelVersion(), getKernelMinorVersion());
-    if (getKernelVersion() >= KernelVersion::Unsupported + 10 && !checkKernelArgument(bootargBeta)) {
+    if (getKernelVersion() >= KernelVersion::Unsupported && !checkKernelArgument(bootargBeta)) {
         LOG("Unsupported kernel version: %d, get a CPUTune that supports current kernel from https://github.com/syscl/CPUTune", getKernelVersion());
         nvram.setKextPanicKey();
         return false;

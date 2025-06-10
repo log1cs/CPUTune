@@ -126,6 +126,7 @@ enum KernelVersion {
     Ventura       = 22,
     Sonoma        = 23,
     Sequoia       = 24,
+    Tahoe	  = 25,
     Unsupported
 };
 
